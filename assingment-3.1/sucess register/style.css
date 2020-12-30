@@ -1,0 +1,35 @@
+*{
+    margin-left:0px;
+    margin-top:0px;
+    font-family: sans-serif;
+
+}
+body{
+}
+.container{
+    height: 358px;
+    width:75%;
+    margin:0 auto;
+    border-radius:2px;
+    margin-top:15px;
+
+    text-align: center;
+
+    padding-top: 112px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+
+    box-shadow: 3px 3px 2px #dad4d4;
+
+}
+.text{
+    font-weight: 500;
+    font-size: 35px;
+    color: #444343;
+}
+
+#icon,.logo{
+    font-size: 62px;
+    color: #16a916;
+    padding: 11px;
+}

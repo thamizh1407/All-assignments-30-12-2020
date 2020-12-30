@@ -1,0 +1,135 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    margin-left:0px;
+    margin-top:0px;
+   
+}
+
+.wrapper{
+    margin-top:30px;
+    width: 67%;
+    margin: auto;
+    background-color:#ccc6c2;
+   
+    
+}
+.container{
+    border:1px solid #ccc6c2;
+    width: 80%;
+    margin: auto;
+    background-color:#ccc6c2;
+}
+.name-contact{
+    margin-left:15px;
+}
+.layout{
+    margin-bottom:10px;   
+}
+.section2{
+margin-bottom:10px;   
+}
+.section3{
+    margin-bottom:10px;   
+
+    
+}
+/*---------------------------------------layouts----------------------------------- */
+/*-----------------------------------section1 ---------------------*/
+.curriculumvitae{
+    width:50%;
+    margin:auto;
+}
+.curriculum{
+    text-align:center;
+}
+.section1-row{
+    display:flex;
+}
+.section1-name{
+    width:70px;
+    font-weight:bold;
+}
+/*-----------------------------------section1 ---------------------*/
+/*-----------------------------------section2 ---------------------*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+/*------------------------------------section2 ---------------------*/
+.profile_image{
+    width: 64px;
+    height: 65px;
+    margin-top: -15px;
+    margin-left: -245px;
+}
+.image_profile{
+    width:50px;
+    height:50px;
+    margin-left: 854px;
+    margin-top: 25px;
+}
+.name{
+    float:left;
+}
+#clear-fix{
+
+    clear:both;
+}
+/*------------------------------------section5 ---------------------*/
+.names{
+    padding-left: 60px;
+}
+.key{
+    width:200px;
+}
+.row{
+    display:flex;
+    padding-bottom:5px;
+}
+.block1
+{
+    width:176px;
+}
+.block2{
+    width:20px;
+}
+/*------------------------------------section5 ---------------------*/
+/*------------------------------------section6---------------------*/
+
+.audio{
+    width: 143px;
+    height: 31px;
+}
+#video{
+    width: 237px;
+    height: 130px;
+}
+/*------------------------------------section6 ---------------------*/
+/*------------------------------------sectionblank ---------------------*/
+.section-data-place{
+    height:100px;
+    display:flex;
+}
+.date-place{
+    width:500px;
+}
+.signature{
+    width: 294px;
+    margin-left: 467px;
+    padding-top: 50px;
+
+}
+
+/*------------------------------------section blank ---------------------*/
+
+
+
+

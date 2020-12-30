@@ -1,0 +1,26 @@
+*{
+    margin-left:0px;
+    margin-top:0px;
+    font-family: sans-serif;
+}
+.container{
+    border:0px solid black;
+    border-radius:2px;
+    width:75%;
+    margin:0 auto;
+    text-align: center;
+    height: 358px;
+    padding-top: 123px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    margin-top:15px;
+    box-shadow: 3px 3px 2px #dad4d4;
+}
+#error-image{
+    width:150px;
+}
+.text{
+    font-size: 26px;
+    color: #767676;
+    padding: 11px;
+}

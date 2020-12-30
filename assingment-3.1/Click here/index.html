@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid border ">
+        <header class="justify-content-center">
+            <div class="d-flex justify-content-center">
+                <h2>Thamizhmani.S</h2>
+            </div>
+        </header>
+        <!-- <nav class=" container-fluid navbar  navbar-expand-sm bg-dark text-white">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav tab">
+                    <li class="nav-item ">
+                        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"   data-toggle="collapse" data-target="#profile" >Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#login-page" href="..\02 login-page\login.html">Login Page</a>
+                    </li>
+                    <li class="nav-item">   
+                        <a class="nav-link" data-toggle="collapse" data-target="#registeration" href="..\regiater form 11.11.2020\Register-form.html">Registration Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#document"  href="..\html documentation\htmltags_Thamizhmani.S_.html." src="E:\02-Unique-Hire\html documentation\htmltags_Thamizhmani.S_.html.">Technical Documentation HTML5 (tag)</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> -->
+        <!-- -----------------------------------------header ends----------------------------------------- -->
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'about')">about</button>
+            <button class="tablinks" onclick="openCity(event, 'profile')">profile</button>
+            <button class="tablinks" onclick="openCity(event, 'login')">Login Page</button>
+
+            <button class="tablinks" onclick="openCity(event, 'registration')">Registration Page</button>
+            <button class="tablinks" onclick="openCity(event, 'assignment')">Js 10 Assignments</button>
+            <button class="tablinks" onclick="openCity(event, 'tourism')">Pondicherry Tourism</button>
+
+
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">technical documentation</button>
+            <div class="dropdown-content">
+                <a href="#">
+                    <button class="tablinks" onclick="openCity(event, 'technical')">documentation HTML 5</button>
+                </a>
+                <a href="#">
+                    <button class="tablinks" onclick="openCity(event, 'presentation')">Css 3 Presentation</button>
+
+                </a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+        <!-- -----------------------------------------navigation----------------------------------------- -->
+
+
+        <div class="tabcontent container col-lg-5 w-50 h-50" id="about">
+            <div class="text-light">
+                <p>Name: Thamizhmani.S</p>
+                <p>Completed B.tech (ECE)</p>
+                <h5>Area of Interest:</h5>
+                <ul>
+                 <li>Front-end Web Development</li>
+                </ul>
+            </div>
+
+         </div>
+         <div class="tabcontent container col-lg-5 w-50" id="login">
+            <a class="text-light" href="..\02 login-page\login.html"> 
+                    <img class="" width="100%"  src="../assets/loginpage.png">Preview
+            </a>
+         </div>
+         <div class="tabcontent container col-lg-5 w-50" id="profile">
+            <a class="text-light" href="..\01.resume\resume.html"> 
+                    <img class="" width="100%"  src="../assets/profile.png">Preview
+            </a>
+         </div>
+         <div class="tabcontent container col-lg-5 w-50" id="registration">
+            <a class="text-light" href="..\regiater form 11.11.2020\Register-form.html"> 
+                    <img class="" width="100%"  src="../assets/register.png">Preview
+            </a>
+         </div>
+         <div class="tabcontent container col-lg-5 w-50" id="technical">
+            <a class="text-light" href="..\html documentation\htmltags_Thamizhmani.S_.html."> 
+                    <img class="" width="100%"  src="../assets/document.png">Preview
+            </a>
+         </div>
+         <div class="tabcontent container col-lg-5 w-50" id="assignment">
+            <!-- <a class="text-light" href="..\E. 10-assingment\index.html"> 
+                    <img class="" width="100%"  src="../assets/assign.png">Preview
+            </a> -->
+            <iframe src="..\E. 10-assingment\index.html" width="100%" height="500px"></iframe>
+
+         </div>
+         <div class="tabcontent container col-lg-5 w-50 h-100" id="tourism">
+            <!-- <a class="text-light" href="..\pondicherry-tourism\pondicherry-home.html"> 
+                    <img class="" width="100%"  src="../assets/tourism.png">Preview
+            </a> -->
+            <iframe src="..\pondicherry-tourism\pondicherry-home.html" width="100%" height="500px"></iframe>
+         </div>
+         <div class="tabcontent container col-lg-5 w-50 h-100" id="presentation">
+             <a href="../css3/Presentation.pdf">Preview
+                <embed  src="../css3/Presentation.pdf" type="application/pdf" width="100%" height="600px" />
+
+            </a>
+
+         </div>
+
+
+
+
+        <div id="clear-fix"></div>
+
+
+          <footer class="footer ">
+              <div class="copyrights ">
+                <p id="copy-text"  class="text-primary text-light "> 	&copy  2020 UniqueHire  </p>
+              </div>
+          </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<script  type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

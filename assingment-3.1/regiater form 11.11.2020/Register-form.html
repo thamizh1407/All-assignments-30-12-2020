@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- <header id="header">
+            <div class="header-lay">
+                <div class="my-website">
+                    <h2 class="my-website-text">Unique Hire</h2>
+                </div>
+                <div class="login">
+                    <button  type="submit"   role="button"><a href='..\02 login-page\login.html'>Login</a></button>
+                </div>
+            </div>
+        </header> -->
+    
+    <div id="clear-fix"></div>
+    <div class="wrapper">
+        <div class="container">
+            <h5><b>Employee Registration Form :</b></h5>
+
+            <form id="form" autocomplete="off">
+                <div class="fname form-control">
+                    <div class="label-layout" id="fname">
+                        <label for="first-name" class="label">First Name</label>
+                    </div>  
+                    <input class="fname-inp inp-layout" id="first-name" type="text" placeholder="Enter Your Name" maxlength="25">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>(Max length 20 characters)</span>
+                    <small>Error message</small>
+                </div>
+
+                <div class="lname form-control">
+                    <div class="label-layout" id="lname">
+                        <label for="last-name" class="label">Last Name</label>
+                    </div>
+                    <input class="lname-inp inp-layout" id="last-name" type="text" placeholder="Enter Your Last" maxlength="30">
+                    <small>(Max length 20 characters)</small>
+                    <small>Error message</small>
+
+                </div>
+
+                <div class="mail-Id form-control">
+                    <div class="label-layout" id="email">
+                        <label for="Email" class="email">Email</label>
+                    </div>
+                    <input class="email inp-layout" id="Email" type="" placeholder="Eg: name@gmail.com" >
+                    <small>Error message</small>
+
+                </div>
+
+                <div class="mobile-number form-control">
+                    <div class="label-layout" id="mobile-number">
+                        <label for="mobile-num" class="mobile">Mobile Number</label>
+                    </div>
+                    <input class="mobileNum inp-layout" id="mobile-num" type="number" placeholder="Enter your mobile number" >
+                    <small>(Max 10 digits allowed)</small>
+                    <div class="errorMsg" id="errorMsg-mobile"></div>
+
+                </div>
+
+                <div class="gender form-control">
+                    <div class="label-layout" id="Gender">
+                        <label for="gender" class="mobile">Gender</label>
+                    </div>
+                    <input class="inp-layout-radio gender"   name="gender" type="radio" value="0" >Male<small>Error message</small></input>
+                    <input class=" np-layout-radio gender success"   name="gender" type="radio" value="1" >Female<small>Error message</small></input>
+                    <span  style="visibility: hidden;color:red" id="check-gender">Select any  of the gender</span>
+
+                    <b></b>
+
+                </div>
+                <div class="dob form-control">
+                    <div class="label-layout" id="dob">
+                        <label for="date-of-birth" class="date-of-birth">Date Of Birth</label>
+                    </div>
+                    
+                        <input id="date-of-birth" class="inp-layout" type="date"  name="birthday">
+
+                    
+                   <small></small>
+                </div>
+
+                <!-- <div class="address form-control">
+                    <div class="label-layout" id="address">
+                        <label for="Address" class="add">Address</label>
+                    </div>
+                    <input id="Address" type="text" class="inp-layout-address inp-layout">  
+                    <span></span>
+                </div> -->
+
+                <div class="city form-control">
+                    <div class="label-layout" id="city">
+                        <label for="City" class="add">City</label>
+                    </div>
+                    <input id="City" type="text" class="inp-layout" maxlength="50">
+                    <small>(Maximum 50 characters)</small>
+
+                    <p>Maximum 20 characters allowed </p>
+
+                </div>
+                <div class="pincode form-control">
+                    <div class="label-layout" id="pincode">
+                        <label for="Pincode" class="add">Pincode</label>
+                    </div>
+                    <input id="Pincode" type="number" class=" inp-layout" maxlength="6">
+                    <b>(Maximun 6 numbers)</b>
+                    <small>(Maximun 6 numbers)</small>
+                </div>
+                <div class="state form-control">
+                    <div class="label-layout" id="state">
+                        <label for="State" class="add">State</label>
+                    </div>
+                    <input id="State" type="text" class=" inp-layout" maxlength="50">
+                    <small>(Max 50 Charcters Allowed)</small>
+                </div>
+                <div class="country form-control">
+                    <div class="label-layout" id="address">
+                        <label for="Country" class="add">Country</label>
+                    </div>
+                    <input id="Country" type="text" class="inp-layout">
+                    <small></small>
+                </div>
+
+                <div  id="hobby"class="hobbies form-control">
+                    <div class="label-layout" id="hobby">
+                        <label for="hobby" class="add">Hobbies</label>
+                    </div>
+                    <div  class="check-layout">
+                        <input class="hobbie" type="checkbox" id="drawing" name="drawing" value="drawing">
+                        <label for="drawing">Drawing</label>
+    
+                    </div>
+                    <div class="check-layout">
+                        <input class="hobbie" type="checkbox" id="Singing" name="Singing" value="Singing">
+                        <label for="Singing">Singing</label>
+    
+                    </div>
+                    <div class="check-layout">
+                        <input class="hobbie" type="checkbox" id="reading" name="reading" value="reading">
+                        <label for="reading">Reading</label>
+                    </div>
+                    <div class="check-layout others">
+                        <input class="hobbie"  type="checkbox" id="Dancing" name="Dancing" value="Dancing">
+                        <label for="Dancing">Dancing</label>    <br>
+    
+                    </div>
+                     <div id="clear-fix"></div> 
+                    <!-- <div class="others">
+                        <input type="checkbox" id="others" name="others" value="others">
+                        <label class="others-text" for="others">Others</label>
+                        <input type="text" id="others" class="inp-layout others-layout" maxlength="50">
+                        <small>(50 Characters Allowed)</small>
+                    </div> -->
+                    <span  style="visibility: hidden;color:red" id="check-hobbie">Select any  of the check box</span>
+                </div>
+                <!-- <div id="qualifications" class="qualifications form-control">
+                    <div class="label-layout" id="quali">
+                        <label for="quali" class="add">Qualifications</label>
+                    </div>
+
+                    <div class="check-layout">
+                        <input type="checkbox" id="highschool" class="er" name="highschool" value="High-School" >
+                        <label for="high-school" >High School</label>
+                    </div>
+                    <div class="check-layout">
+                        <input type="checkbox" id="high-school" class="er"name="higherschool" value="Higher-School" >
+                        <label for="high-school" >Higher School</label>
+                    </div>
+                    <div class="check-layout">
+                        <input type="checkbox" id="graduation" name="graduation" value="graduation" >
+                        <label for="graduation" >Graduation</label> <br>
+                    </div>
+                    <div class="check-layout">
+                        <input type="checkbox" id="high-school" name="higherschool" value="Higher-School" >
+                        <label for="high-school" >Higher School</label>
+                    </div>
+                    <div id="clear-fix"></div>
+                    <div class="check-layout">
+                        <input type="checkbox" id="pg" name="pg" value="Post-Graduation" >
+                        <label for="pg" >Post Graduation</label>    
+                    </div>
+                    <div class="check-layout">
+                        <input type="checkbox" id="phd"  name="phd" value="Phd" >
+                        <label for="phd" >Phd</label>    
+                    </div>
+                    <span  style="visibility: hidden;color:red" id="check-error">Select any of the check box</span>
+                </div> -->
+
+                <!-- <div class="degree-program form-control">
+                    <div class="label-layout" id="degre">
+                        <label for="degree" class="">Degree Program</label>
+                    </div>
+                    <select id="degree" class="inp-layout">
+                        <option class="degree-class" value="" disabled="disabled" selected="selected">Select the Course</option>
+                        <option class="degree-class" value="B.CA">B.CA(Bachelor Of Computer Applications)</option>
+                        <option class="degree-class" value="B.COM">B.COM(Bachelor Of Computer Science)</option>
+                        <option class="degree-class" value="B.SC">B.SC(Bachelor Of  Science)</option>
+                        <option class="degree-class" value="B.A">B.A(Bachelor Of  Arts)</option>
+                        <option class="degree-class" value="MCA">MCA(Master Of Computer Application)</option>
+                        <option class="degree-class" value="M.COM">M.COM(Master Of  Commerce)</option>
+                        <span></span>
+                    </select>
+                    <span id="degree-error"></span>
+                    
+                </div> -->
+                <div class="password form-control">
+                    <div class="label-layout" id="">
+                        <label for="pass" class="add">Password</label>
+                    </div>
+                    <input id="pass" type="password" class="inp-layout"></input>
+                    <small></small>
+                </div>
+                <div class="re-password form-control">
+                    <div class="label-layout" id="">
+                        <label for="re-pass" class="add">Re-pass</label>
+                    </div>
+                    <input id="re-pass" type="password" class="inp-layout"></input>
+                    <small></small>
+                </div>
+
+
+                <div class="button">
+                    <button type="submit" id="submit" class="sub-btn"  onclick="return validate();">
+                        <!-- <a  id="a-tag" href="..\sucess register\success-register.html"> 
+                            </a> -->
+                            submit
+                           
+                     </button>
+                    <button type="button" class="reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="validate.js"></script>
+</body>
+</html>

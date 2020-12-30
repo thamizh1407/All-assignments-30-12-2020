@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-assingment</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="" id="date-time">
+            <h3>1. Date  and time</h3>
+            <p id="demo"></p>
+            <p>Hours<span id="hours"></span></p>            
+            <p>Minutes<span id="min"></span></p>
+            <p>Seconds<span id="sec"></span></p>
+
+            </div>
+        <div id="largest-num" class="">
+            <h3>2.Find largest number </h3>
+            <button class="btn btn-primary" onclick="largestNum();">click here</button>
+            <span id="larger-num-disp">The largest number among 250,452,999,56,54,32 is</span>
+        </div>
+        <hr>
+        <div id="farent-conversion" class="">
+            <div class="form-group">
+                <h3>3. Farent to Celcious Conversion</h3>
+                <label for="degree-conversion" class="form-contol">a) Enter the farent to convert into celcious</label>
+                <input type="number" id="degree-conversion">
+                <button class="btn btn-primary" onclick="conversion();">Convert to celcious</button>
+                <span id="celcious"></span>
+            </div>
+            <div class="form-group">
+                <label for="celc-to-far" class="form-contol">b) Enter the Celcious to convert into Farent</label>
+                <input type="number" id="celc-to-far">
+                <button class="btn btn-primary" onclick="conversionToFarent();">Convert to Farent</button>
+                <span id="Farent"></span>
+            </div>
+        </div>
+        <hr>
+        <div id="are-of-triange">
+            <div class="form-group">
+                <h3>4.Area of triangle</h3>
+                <label for="areaOfTriangle"></label>
+                <input type="number" id="length">
+                <input type="number" id="breadth">
+                <button class="btn btn-primary" onclick="areaOfTriangle();">Area of Triangle</button>
+                <span id="triangle"></span>
+            </div>
+        </div>
+        <hr>
+        <div id="areaOfCircle">
+            <div class="form-group">
+                <h3>5.Area of Circle</h3>
+                <input type="number" id="radius" placeholder="Enter the radius of circle ">
+                <button class="btn btn-primary" onclick="areaOfCircle();">Area of Circle</button>
+                <span id="circle"></span>
+
+            </div>
+        </div>
+        <hr>   
+        <div id="scientific-formulas">
+            <h3>6.Scientific formulas</h3>
+            <h4>a).Newtons law of universal gravitation</h4>
+            <img id="pyth-img" src="https://study.com/cimages/multimages/16/attraction_between_two_bodies.jpg">
+            <input type="number" id="mass1" placeholder="Enter the mass1">
+            <input type="number" id="mass2" placeholder="Enter the mass2">
+            <input type="number" id="dist" placeholder="Enter the Distance between two  mass">
+            <button type="button" onclick="gravity();" class="btn btn-primary">Attraction</button>
+            <p>The attraction between two masses is<b><span id="attract"> m/s^2</span></b>
+            </p>
+            <hr>
+            <h4>b). Pythagoras theorem</h4>
+            <img class="w-2" id="pyth-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Proof-Pythagorean-Theorem.svg/1280px-Proof-Pythagorean-Theorem.svg.png">
+            <input type="number" id="a" placeholder="Enter dist A">
+            <input type="number" id="b" placeholder="Enter dist B">
+            <button type="button" class="btn btn-primary" onclick="pyth();" >Hypotenous</button>
+            <p>The value of Hypotenous is <b><span id="hypoten"></span></b></p>
+        </div> 
+        <div id="calculator">
+            <div class="form-grou">
+                <div class="form-group">
+                    <h3>7.Arithmetic </h3>
+                    <input class=" col-lg-1 " type="number" placeholder="input1" id="first-num">
+                    <span>
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </span>
+                    <input class=" col-lg-1 " type="number" placeholder="input2" id="second-num">
+                    <i class="fas fa-equals"></i>
+                    <span  class=" col-lg-2 border border-primary"  id="resultadd"></span>
+
+                    <button class="btn btn-primary" onclick="add();">Result</button>
+
+
+                    
+                </div>
+                <div class="form-group">
+                    <input class=" col-lg-1 " type="number" placeholder="input1" id="first-num-mul">
+                    <span>
+                        <i class="fa fa-close"></i>                    </span>
+                    <input class=" col-lg-1 " type="number" placeholder="input2" id="second-num-mul">
+                    <i class="fas fa-equals"></i>
+
+                        <span  class=" col-lg-2 border border-primary"  id="resultMul"></span>
+                    <button class="btn btn-primary" onclick="mul();">Result</button> 
+                </div>
+                <div class="form-group">
+                    <input class=" col-lg-1 " type="number" placeholder="input1" id="first-num-div">
+                    <span>
+                        <i class='fas fa-divide'></i>                    </span>
+                    <input class=" col-lg-1 " type="number" placeholder="input2" id="second-num-div">
+                    <i class="fas fa-equals"></i>
+                    <span  class=" col-lg-1"  id="resultDiv"></span>
+                    <button class="btn btn-primary" onclick="div();">Result</button> 
+                </div>
+                <div class="form-group">
+                    <input class=" col-lg-1 " type="number" placeholder="input1" id="first-num-sub">
+                    <span>
+                        <i class='fas fa-minus'></i>                    </span>
+                    <input class=" col-lg-1 " type="number" placeholder="input2" id="second-num-sub">
+                    <i class="fas fa-equals"></i>
+                    <span  class=" col-lg-1"  id="resultSub"></span>
+                    <button class="btn btn-primary border border-primary" onclick="sub();">Result</button> 
+                </div>
+            </div>
+
+        </div>
+        <div id="calc">
+            <div class="calculator card">
+                <h4>Calculator</h4>
+
+                <input type="text" class="calculator-screen z-depth-1 display" value="" disabled>
+                <div class="calculator-keys">
+                    <table style="width: 100%;">
+        
+
+                        <tr>
+                            <th><button class=" btn btn-" value="7">7</button></th>
+                            <th> <button class=" btn btn-" value="8">8</button></th>
+                            <th> <button class=" btn btn-" value="9">9</button></th>
+                            <th> <button class="operator btn btn-" value="+">+</button></th>
+                        </tr>
+
+                        <tr>
+                            <th> <button class=" btn btn-" value="4">4</button></th>
+                            <th>  <button class=" btn btn-" value="5">5</button></th>
+                            <th>  <button class=" btn btn-" value="6">6</button></th>
+                            <th> <button class="operator btn btn-" value="-">-</button></th>
+
+                        </tr>
+
+                        <tr>
+                            <th> <button class=" btn btn-" value="1">1</button></th>
+                            <th> <button class=" btn btn-" value="2">2</button></th>
+                            <th>  <button class=" btn btn-" value="3">3</button></th>
+                            <th> <button class="operator btn btn-" vaue="/">&divide;</button></th>
+                            <th> <button class="equal-sign operator btn btn-" value="=">=</button></th>
+                            
+                        </tr>
+
+                        <tr>
+                            <th>  <button class=" btn btn-" value="0">0</button></th>
+                            <th>  <button class="decimal function btn btn-" value=".">.</button></th>
+                           
+                            <th> <button class="all-clear function btn btn- btn-sm" value="C">Clear</button></th>
+                            <th> <button class="operator btn btn-" value="*">&times;</button></th>
+                            
+                        </tr>
+                    </table>
+
+                   
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
